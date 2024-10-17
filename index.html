@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="question">
+            <p>What will this program display?</p>
+            <img id="img"src="images/Capture d'écran 2024-10-15 203630.png" alt="Program Output">
+        </div>
+        <div class="choices">
+            <div class="choice">
+                <input type="checkbox" name="choice1" id="choice1">
+                <label for="choice1"id="lable1">
+                    1 <br>
+                    2 1 <br>
+                    1 2 3 <br>
+                    4 3 2 1 <br>
+                    1 2 3 4 5 <br>
+                </label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" name="choice2" id="choice2">
+                <label for="choice2"id="lable2">
+                    1 <br>
+                    2 1 <br>
+                    3 2 1 <br>
+                    4 3 2 1 <br>
+                    5 4 3 2 1 <br>
+                </label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" name="choice3" id="choice3">
+                <label for="choice3"id="lable3">
+                    1 2 <br>
+                    3 4 <br>
+                    5 <br>
+                    6 7 <br>
+                    8 9 <br>
+                </label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" name="choice4" id="choice4">
+                <label for="choice4" id="lable4">
+                    1 1 <br>
+                    2 2 2 <br>
+                    3 3 3 <br>
+                    4 4 4 <br>
+                    5 5 5 <br>
+                </label>
+            </div>
+            <div>
+            <button id="submitbtn" class="submit-btn" type="submit" onclick="submit()">Submit</button>
+        </div>
+        
+        </div>
+        <p class="myP" id="myP">1/10</p>
+        
+    </div>
+    <div class="btn-np">
+        <button type="button" class="button-btn"id="nextbtn" onclick="nextTest()">Next</button>
+        <button type="button" class="button-btn"id="previousbtn" onclick="previous()">Previous</button>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
