@@ -82,7 +82,16 @@ function handleNext() {
                           A = -15
                           A = -18
                           Faux`;   
-      sol4.textContent = ``;                  
+      sol4.textContent = `
+      A = -13
+      A = -16
+      A = -19
+      A = -22
+      Vrai
+      `;                  
+      break;
+    case 6:
+      updatePic.src = "images/6.png";
       break;
     default:
       break;
