@@ -13,12 +13,13 @@ let sol3 = document.getElementById("lable3");
 let sol4 = document.getElementById("lable4");
 let counter = 1;
 const pagecount = document.getElementById("myP");
+let rightanswer = 0; 
 
 function handleSubmit() {
   if (checkboxRight.checked) {
     counter++;
     window.alert("You got the right answer!");
-
+    rightanswer++;
     handleNext();
   } else {
     window.alert("Wrong, try again.");
